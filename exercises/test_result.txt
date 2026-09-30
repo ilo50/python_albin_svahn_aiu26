@@ -78,3 +78,86 @@ Ella Ester C
 Johan Johansson C 
 Gore Bord B 
 Jakob Kallander A 
+
+
+SORTED NAMES
+
+
+
+
+
+Adam Gustafsson 25 
+Adam Gustafsson 25 
+Adam Gustafsson E 
+Adam Gustafsson E 
+Björn Björnsson 39 
+Björn Björnsson 39 
+Björn Björnsson D 
+Björn Björnsson D 
+Bose Bosseson 32 
+Bose Bosseson 32 
+Bose Bosseson D 
+Bose Bosseson D 
+Ella Ester 41 
+Ella Ester 41 
+Ella Ester C 
+Ella Ester C 
+Emil Johansson 23 
+Emil Johansson 23 
+Emil Johansson E 
+Emil Johansson E 
+Emma Boden 32 
+Emma Boden 32 
+Emma Boden D 
+Emma Boden D 
+Erik Eriksson 31 
+Erik Eriksson 31 
+Erik Eriksson D 
+Erik Eriksson D 
+Gore Bord 55 
+Gore Bord 55 
+Gore Bord B 
+Gore Bord B 
+Hanna Karlsson 23 
+Hanna Karlsson 23 
+Hanna Karlsson E 
+Hanna Karlsson E 
+Håkan Håkanson 24 
+Håkan Håkanson 24 
+Håkan Håkanson E 
+Håkan Håkanson E 
+Ida Håkansson 23 
+Ida Håkansson 23 
+Ida Håkansson E 
+Ida Håkansson E 
+Jakob Kallander 65 
+Jakob Kallander 65 
+Jakob Kallander A 
+Jakob Kallander A 
+Johan Johansson 42 
+Johan Johansson 42 
+Johan Johansson C 
+Johan Johansson C 
+Jonas Jonasson 31 
+Jonas Jonasson 31 
+Jonas Jonasson D 
+Jonas Jonasson D 
+Karl Karlsson 32 
+Karl Karlsson 32 
+Karl Karlsson D 
+Karl Karlsson D 
+Ove Karlsten 41 
+Ove Karlsten 41 
+Ove Karlsten C 
+Ove Karlsten C 
+SORTED GRADES 
+SORTED GRADES 
+SORTED NAMES 
+Sven Erik Karlsson 13 
+Sven Erik Karlsson 13 
+Sven Erik Karlsson F 
+Sven Erik Karlsson F 
+Sven Erik Lundin 39 
+Sven Erik Lundin 39 
+Sven Erik Lundin D 
+Sven Erik Lundin D 

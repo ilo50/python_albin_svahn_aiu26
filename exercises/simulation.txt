@@ -1,0 +1,20 @@
+Results for simulation with 10 rolls:
+Frequencies: 
+Ones: 0, (0%) Twos: 2, (5.0%) Threes: 1, (10.0%) Fours: 3, (3.33%) Fives: 3, (3.33%) Sixes: 1, (10.0%) 
+
+Results for simulation with 100 rolls:
+Frequencies: 
+Ones: 14, (7.14%) Twos: 23, (4.35%) Threes: 16, (6.25%) Fours: 25, (4.0%) Fives: 20, (5.0%) Sixes: 12, (8.33%) 
+
+Results for simulation with 1000 rolls:
+Frequencies: 
+Ones: 191, (5.24%) Twos: 218, (4.59%) Threes: 185, (5.41%) Fours: 183, (5.46%) Fives: 187, (5.35%) Sixes: 146, (6.85%) 
+
+Results for simulation with 10000 rolls:
+Frequencies: 
+Ones: 1880, (5.32%) Twos: 1933, (5.17%) Threes: 1832, (5.46%) Fours: 1880, (5.32%) Fives: 1781, (5.61%) Sixes: 1804, (5.54%) 
+
+Results for simulation with 100000 rolls:
+Frequencies: 
+Ones: 18487, (5.41%) Twos: 18704, (5.35%) Threes: 18504, (5.4%) Fours: 18324, (5.46%) Fives: 18272, (5.47%) Sixes: 18819, (5.31%) 
+
