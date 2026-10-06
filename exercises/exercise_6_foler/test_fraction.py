@@ -21,11 +21,30 @@ def test_valid_addition():
     f2 = Fraction(1, 3)
     assert f1.addition(f2) == Fraction(5, 6)
 
-def test_invalid_addition():
+def test_invalid_init():
 
     with raises(TypeError):
         Fraction("4", 5)
 
     with raises(ValueError):
         Fraction()
+
+def test_valid_mix():
+
+    f3 = Fraction(3,4)
+    assert f3.mixed() == f3
+
+    f4 = Fraction(6,5)
+    assert f4.mixed() == "1, 1/5"
+
+def test_valid_multiplication():
+
+    f5 = Fraction(1,4)
+    f6 = Fraction(3,3)
+
+    assert f5.multiplication(f6) == Fraction(3,12)
+
+    assert f5.multiplication(3) == Fraction(3,4)
+
+# pallar inte mera test
 

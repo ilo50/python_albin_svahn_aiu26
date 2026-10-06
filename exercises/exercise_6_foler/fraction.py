@@ -28,7 +28,10 @@ class Fraction:
             return Fraction(new_nom, new_den)
 
     def multiplication(self, other) -> "Fraction":
-        return Fraction(self.nom*other.nom, self.den*other.den)
+        if isinstance(other, int | float):
+            return Fraction(other*self.nom, self.den).mixed()
+        else:
+            return Fraction(self.nom*other.nom, self.den*other.den)
 
     def division(self, other) -> "Fraction":
         return Fraction(self.nom*other.den, self.den*other.nom)
@@ -46,8 +49,8 @@ class Fraction:
             return Fraction(self.nom / gcf, self.den / gcf)
             
         else: # value given try it
-            if not self.den % value == 0 and self.nom % value == 0:
-                print (f"illegal value")
+            if self.den % value != 0 and self.nom % value == 0:
+                print ("illegal value")
             else:
                 return Fraction(self.nom / value, self.den / value)
          
@@ -58,22 +61,19 @@ class Fraction:
     def __repr__(self):
         return(f"{self.nom} / {self.den}")
 
-    def mixed(self): # represent the fraction in mixed terms
-        if abs(self.nom) < abs(self.den): # if nominator is smaller, cant get whole numbers
-            print(f"Cant be represented in mixed terms")
-        else: 
+    def mixed(self) -> str: # represent the fraction in mixed terms
+            if abs(self.nom) < abs(self.den): # if nominator is smaller, cant get whole numbers
+                return Fraction(self.nom, self.den)
             if (self.nom % self.den == 0):
-                print(int(self.nom / self.den))
+                return Fraction(self.nom, self.den)
             else:
-                print(f"{self.nom // self.den}, {self.nom - ((self.nom // self.den)*self.den)}/{self.den}")
+                return (f"{self.nom // self.den}, {self.nom - ((self.nom // self.den)*self.den)}/{self.den}")
 
 
     def __eq__(self, other):  # checks equality by overloading ==
         nom_factor = max(self.nom, other.nom) / min(self.nom, other.nom)
         den_factor = max(self.den, other.den) / min(self.den, other.den)
 
-        if (nom_factor == den_factor):
-            return True
-        else:
-            return False
+        return nom_factor == den_factor
+
 
