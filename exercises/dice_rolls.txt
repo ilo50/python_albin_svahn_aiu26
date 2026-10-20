@@ -1,6 +1,6 @@
 Simulate 20 dice rolls and write them to your textfile. 
-3 4 4 4 5 3 5 6 2 1 5 2 5 3 4 3 6 6 1 5 
+1 2 5 1 5 6 2 2 2 6 5 5 2 4 4 1 5 1 1 5 
 Sort the dice rolls from a and write them to a separate row in the same textfile. 
-1 1 2 2 3 3 3 3 4 4 4 4 5 5 5 5 5 6 6 6 
+1 1 1 1 1 2 2 2 2 2 4 4 5 5 5 5 5 5 6 6 
 Count the number of fours in the dice rolls and write them to a separate row in the same textfile. 
-4
+2
