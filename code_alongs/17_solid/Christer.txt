@@ -1,0 +1,4 @@
+Employee report
+Name: Christer
+Phone: 043-53535
+Salary: 35000
